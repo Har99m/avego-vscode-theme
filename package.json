@@ -1,49 +1,20 @@
 {
-  "name": "avego-theme",
-  "displayName": "Notepad++ Avego",
-  "description": "Accurate recreation of the classic Notepad++ syntax highlighting in Visual Studio Code. The light theme you know and love.",
-  "version": "0.0.3",
-  "publisher": "avego",
-  "icon": "icon.png",
-  "engines": {
-    "vscode": "^1.85.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "notepad++",
-    "npp",
-    "theme",
-    "light",
-    "classic",
-    "syntax",
-    "avego"
-  ],
-  "galleryBanner": {
-    "color": "#f9f9f9",
-    "theme": "light"
-  },
-"contributes": {
-  "themes": [
-	{
-	  "label": "Notepad++ Avego",
-	  "uiTheme": "vs",
-	  "path": "./themes/notepad-avego-color-theme.json"
-	},
-	{
-	  "label": "Notepad++ Avego Light",
-	  "uiTheme": "vs",
-	  "path": "./themes/notepad-avego-light-color-theme.json"
-	}
-  ]
+"name": "custom-retro-theme",
+"displayName": "Retro Custom MyTheme",
+"version": "1.0.0",
+"engines": {
+"vscode": "^1.50.0"
 },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/avego/avego-vscode-theme"
-  },
-  "homepage": "https://avego.org",
-  "bugs": {
-    "url": "https://github.com/avego/avego-vscode-theme/issues"
-  }
+"categories": [
+"Themes"
+],
+"contributes": {
+"themes": [
+{
+"label": "Retro Custom MyTheme",
+"uiTheme": "vs",
+"path": "./themes/custom-mytheme-theme.json"
+}
+]
+}
 }
